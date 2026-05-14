@@ -1,0 +1,36 @@
+@media(max-width: 768px) {
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: -100%;
+    flex-direction: column;
+    background: white;
+    width: 250px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .about-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+  }
+}
