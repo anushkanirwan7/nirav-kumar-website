@@ -45,6 +45,7 @@
 }
 
 .logo{
+  width: 100%;
     text-align: center;
 }
 
@@ -59,18 +60,11 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
-    cursor: pointer;
+    z-index: 1000;;
 }
 
 .nav-links{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.nav-links a{
-    font-size:16px;
+    display:none;
 }
 }
 
