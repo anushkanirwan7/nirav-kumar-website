@@ -59,3 +59,15 @@
     }
 
 }
+@media(max-width:768px){
+
+    .cta-banner{
+        padding:40px 15px;
+    }
+
+    .cta-banner h2{
+        font-size:1.5rem;
+        text-align:center;
+    }
+
+}
